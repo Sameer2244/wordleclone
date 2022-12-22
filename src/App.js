@@ -266,6 +266,7 @@ const deleteField = () => {
   }
 }
 return (
+  <>
   <div className="App">
     <div>
       <h1  style={{color:'#fff'}}>Wordle Clone</h1>
@@ -331,6 +332,8 @@ return (
     <a className='btn'  onClick={checkResult}>ENTER</a>
     </div>
   </div>
+  <h5>created by <span href="">sameer</span></h5>
+  </>
 );
 }
 
